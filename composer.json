@@ -1,0 +1,46 @@
+{
+    "name": "anani/stock-xpert",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "8.0.26"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anani Komlan Mawulom Hounkpati",
+            "email": "ananikmh17@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^5.4",
+        "filp/whoops": "^2.14"
+    },
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "altorouter/altorouter": "^2.0",
+        "cocur/slugify": "^4.2",
+        "mpdf/mpdf": "^8.1",
+        "phpoffice/phpspreadsheet": "1.24.1",
+        "maennchen/zipstream-php": "2.1.0",
+        "ifsnop/mysqldump-php": "^2.9",
+        "kwn/number-to-words": "^2.6",
+        "jimmiw/php-time-ago": "^3.2",
+        "phpmailer/phpmailer": "^6.8",
+        "ext-intl": "*",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-calendar": "*",
+        "ext-openssl": "*",
+        "maximebf/debugbar": "^1.18",
+        "html2text/html2text": "^4.3",
+        "illuminate/view": "^9.52",
+        "illuminate/database": "^9.52",
+        "illuminate/pagination": "^9.52",
+        "dompdf/dompdf": "^2.0"
+    }
+}
